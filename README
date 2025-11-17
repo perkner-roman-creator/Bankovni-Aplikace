@@ -5,15 +5,16 @@
 ## Spuštění
 
 1. Backend:
-   - Otevřete složku `bankovni-aplikace` v terminálu
-   - Spusťte příkaz `npm install`
-   - Spusťte příkaz `node server.js`
+   - Otevřete složku bankovni-aplikace v terminálu
+   - Spusťte příkaz npm install
+   - Spusťte příkaz node server.js
+   - Otevřete http://localhost:3001 v prohlížeči
 
 2. Frontend:
-   - Otevřete složku `bankovni-aplikace/frontend` v terminálu
-   - Spusťte příkaz `npm install`
-   - Spusťte příkaz `npm start`
-   - Otevřete [http://localhost:3000](http://localhost:3000) v prohlížeči
+   - Otevřete složku bankovni-aplikace/frontend v terminálu
+   - Spusťte příkaz npm install
+   - Spusťte příkaz npm start
+   - Otevřete http://localhost:3000 v prohlížeči
 
 ## Funkce
 
