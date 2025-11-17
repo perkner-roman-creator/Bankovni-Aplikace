@@ -22,3 +22,13 @@
 - Zobrazení zůstatku na účtu
 - Převod peněz mezi účty
 - Historie transakcí
+
+Tento projekt je jednoduchá bankovní aplikace s webovým rozhraním, která umožňuje:
+
+-Registraci nových uživatelů (jméno, email, heslo)
+-Přihlášení uživatele do systému
+-Zobrazení zůstatku na účtu po přihlášení
+-Převod peněz mezi účty zadáním ID cílového účtu a částky
+-Historii transakcí s možností filtrování a řazení
+-Odhlášení uživatele
+Aplikace je rozdělena na backend (server.js) a frontend (frontend/src/App.js). Data o uživatelích a transakcích jsou uložena v souboru data.json. Projekt slouží jako ukázka základních principů bankovních systémů, práce s uživatelskými účty a transakcemi.
