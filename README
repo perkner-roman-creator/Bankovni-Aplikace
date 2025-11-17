@@ -16,7 +16,7 @@
    - Spusťte příkaz npm start
    - Otevřete http://localhost:3000 v prohlížeči
 
-Tento projekt je jednoduchá bankovní aplikace s webovým rozhraním, která umožňuje:
+Jednoduchá bankovní aplikace s webovým rozhraním, která umožňuje:
 
 -Registraci nových uživatelů (jméno, email, heslo)
 -Přihlášení uživatele do systému
