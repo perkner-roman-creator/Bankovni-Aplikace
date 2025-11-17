@@ -1,0 +1,202 @@
+body {
+  background: linear-gradient(120deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Celkové prostředí */
+.App {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg,#eaf3fb 0%, #e3eefb 100%);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+/* Card */
+.card {
+  width: 400px;
+  max-width: calc(100% - 40px);
+  background: #fff;
+  border-radius: 16px;
+  padding: 32px 32px 24px 32px;
+  border: 3px solid #234a63;
+  box-shadow: 0 0 0 6px #e0eafc, 0 8px 24px rgba(30,55,90,0.10);
+  text-align: center;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.logo img {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 6px;
+}
+
+/* Headings */
+h1 {
+  margin: 8px 0 18px;
+  color: #111; /* Změněno z #234a63 na černou */
+  font-size: 24px;
+  font-weight: 700;
+}
+h2, h3 {
+  color: #234a63;
+  margin-bottom: 16px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+h3, h4 {
+  margin: 12px 0 8px;
+  color: #234a63;
+  font-weight: 600;
+}
+
+h4 {
+  margin: 10px 0;
+  color: #234a63;
+  font-weight: 600;
+}
+
+/* Inputs and buttons */
+input {
+  display: block;
+  width: 100%;
+  padding: 12px 14px;
+  margin: 8px 0;
+  border: 1px solid #e3e7ee;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background: #fbfdff;
+  font-size: 16px;
+  transition: border-color 0.2s;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  padding: 12px 14px;
+  margin: 10px 0;
+  border: 1px solid #e7edf4;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background: #fbfdff;
+  font-size: 15px;
+  color: #213646;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 12px 14px;
+  margin-top: 8px;
+  background: #234a63;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.primary {
+  display: block;
+  width: 100%;
+  padding: 12px 14px;
+  margin-top: 12px;
+  background: #234a63;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(35,74,99,0.12);
+  font-size: 16px;
+}
+
+.primary:disabled { opacity: 0.7; cursor: not-allowed; box-shadow: none; }
+
+.ghost {
+  padding: 10px 18px;
+  background: #234a63;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+/* Balance - zarovnání vlevo v cardu */
+.balance {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #111;
+  margin: 18px 0 24px;
+  text-align: center;
+  padding-left: 0;
+}
+
+/* Převod - hezčí mezery */
+.card h3 { margin-top: 6px; margin-bottom: 6px; }
+
+/* Transactions */
+.transactions-controls {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.transactions-controls .btn {
+  background: #234a63;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px; /* Přidáno pro stejnou velikost písma */
+}
+
+.transactions-list {
+  text-align: left;
+  margin-top: 12px;
+  padding-left: 18px;
+  color: #213646;
+  font-size: 15px;
+}
+
+.transactions-list li {
+  font-size: 17px;      /* větší písmo */
+  color: #111;          /* černá barva */
+  margin-bottom: 8px;
+}
+
+/* zprávy (chyby / úspěch) */
+.message {
+  margin-top: 8px;
+  font-size: 13px;
+}
+.message.error { color: #c0392b; }
+.message.ok { color: #1e8e3e; }
+
+/* responzivita */
+@media (max-width: 480px) {
+  .card { width: calc(100% - 32px); padding: 18px; border-radius: 12px; }
+  .logo img { width: 48px; height: 48px; }
+  h1 { font-size: 19px; }
+}

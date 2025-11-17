@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "jmeno": "Roman Perkner",
+      "email": "Roman.Perkner@centrum.cz",
+      "heslo": "123456789",
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "jmeno": "Petr Renda",
+      "email": "Petr.Renda@gmail.com",
+      "heslo": "789456123",
+      "role": "user"
+    }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "zustatek": 10000
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "zustatek": 1000
+    }
+  ],
+  "transactions": []
+}

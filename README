@@ -1,0 +1,23 @@
+# 🏦 Bankovní aplikace
+
+**Jazyk:** JavaScript + React + Node.js
+
+## Spuštění
+
+1. Backend:
+   - Otevřete složku `bankovni-aplikace` v terminálu
+   - Spusťte příkaz `npm install`
+   - Spusťte příkaz `node server.js`
+
+2. Frontend:
+   - Otevřete složku `bankovni-aplikace/frontend` v terminálu
+   - Spusťte příkaz `npm install`
+   - Spusťte příkaz `npm start`
+   - Otevřete [http://localhost:3000](http://localhost:3000) v prohlížeči
+
+## Funkce
+
+- Přihlášení a registrace uživatele
+- Zobrazení zůstatku na účtu
+- Převod peněz mezi účty
+- Historie transakcí
