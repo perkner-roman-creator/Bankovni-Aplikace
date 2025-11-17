@@ -16,13 +16,6 @@
    - Spusťte příkaz npm start
    - Otevřete http://localhost:3000 v prohlížeči
 
-## Funkce
-
-- Přihlášení a registrace uživatele
-- Zobrazení zůstatku na účtu
-- Převod peněz mezi účty
-- Historie transakcí
-
 Tento projekt je jednoduchá bankovní aplikace s webovým rozhraním, která umožňuje:
 
 -Registraci nových uživatelů (jméno, email, heslo)
