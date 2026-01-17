@@ -1,28 +1,29 @@
-# 🏦 Bankovní aplikace
+# 🏦 Bankovní aplikace - Moderní webová aplikace pro správu bankovních účtů s převodem peněz a historií transakcí.
 
-**Jazyk:** JavaScript + React + Node.js
+### Backend
+- **Node.js** - serverový runtime
+- **Express.js** - web framework
+- **SQLite/JSON** - databáze
+- **REST API** - komunikace
 
-## Spuštění
+### Frontend
+- **React** - UI knihovna
+- **JavaScript** (ES6+) - logika
+- **CSS3** - styling (Flexbox, Grid)
+- **Axios/Fetch** - HTTP komunikace
 
-1. Backend:
-   - Otevřete složku bankovni-aplikace v terminálu
-   - Spusťte příkaz npm install
-   - Spusťte příkaz node server.js
-   - Otevřete http://localhost:3001 v prohlížeči
+## ✨ Funkce
+- **Přihlášení a registrace** - bezpečné ověření uživatele
+- **Správa účtů** - zobrazení zůstatku a informací
+- **Převod peněz** - mezi vlastními účty nebo jiným uživatelům
+- **Historie transakcí** - úplný přehled všech operací
+- **Validace dat** - kontrola vstupů na backendu i frontendu
+- **Responzivní design** - funkční na mobilu i desktopu
+- **Moderní UI** - přehledné a intuitivní rozhraní
 
-2. Frontend:
-   - Otevřete složku bankovni-aplikace/frontend v terminálu
-   - Spusťte příkaz npm install
-   - Spusťte příkaz npm start
-   - Otevřete http://localhost:3000 v prohlížeči
+## 📝 Poznámky
+- Backend poskytuje REST API pro správu účtů a transakcí
+- Frontend komunikuje s backendem přes HTTP požadavky
+- Data se ukládají do databáze na serveru
 
-Jednoduchá bankovní aplikace s webovým rozhraním, která umožňuje:
 
--Registraci nových uživatelů (jméno, email, heslo)
--Přihlášení uživatele do systému
--Zobrazení zůstatku na účtu po přihlášení
--Převod peněz mezi účty zadáním ID cílového účtu a částky
--Historii transakcí s možností filtrování a řazení
--Odhlášení uživatele
-
-Aplikace je rozdělena na backend (server.js) a frontend (frontend/src/App.js). Data o uživatelích a transakcích jsou uložena v souboru data.json. Projekt slouží jako ukázka základních principů bankovních systémů, práce s uživatelskými účty a transakcemi.
