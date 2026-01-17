@@ -1,12 +1,12 @@
 # 🏦 Bankovní aplikace - Moderní webová aplikace pro správu bankovních účtů s převodem peněz a historií transakcí.
 
-### Backend
+## Backend
 - **Node.js** - serverový runtime
 - **Express.js** - web framework
 - **SQLite/JSON** - databáze
 - **REST API** - komunikace
 
-### Frontend
+## Frontend
 - **React** - UI knihovna
 - **JavaScript** (ES6+) - logika
 - **CSS3** - styling (Flexbox, Grid)
@@ -25,5 +25,6 @@
 - Backend poskytuje REST API pro správu účtů a transakcí
 - Frontend komunikuje s backendem přes HTTP požadavky
 - Data se ukládají do databáze na serveru
+
 
 
